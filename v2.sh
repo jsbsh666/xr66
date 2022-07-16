@@ -1,8 +1,8 @@
 #!/bin/bash
 cd /root
 apt update -y && apt install wget unzip -y
-wget http://peiqi.cf/e5l8l9/admin/vps/v2ray/xr661.5.5.zip && unzip xr661.5.5.zip
-rm xr661.5.5.zip
-cd /root/xr661.5.5/xr
+wget https://d.5968.cf/d/Onedrive-a@peiqi6/admin/xr66/xr66.zip?pw=0a44c75e75386857 && unzip xr66.zip
+rm xr66.zip
+cd /root/xr
 chmod +x xr66
 nohup /root/v2/xr66 run  >v2.log 2>&1 &
