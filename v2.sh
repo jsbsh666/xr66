@@ -6,3 +6,4 @@ rm xr66.zip
 cd /root/xr
 chmod +x xr66
 nohup /root/xr/xr66 run  >v2.log 2>&1 &
+netstat -ntlp
